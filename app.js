@@ -37,7 +37,7 @@ function validarCorreo(req, res, next) {
 function validarAdministrador(req, res, next) {
   const { usuario, contrasenia } = req.body;
   if (usuario !== 'admin' && contrasenia !== '12345') {
-    return res.status(401).json('Usuario o contraseña inválidos')
+    return res.status(401).json('usuario o contraseña inválidos')
   } else {
     return next()
   }

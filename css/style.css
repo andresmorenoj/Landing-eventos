@@ -1,0 +1,22 @@
+body {
+  background: url(/assets/think-new-lead.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.form {
+  width: 500px;
+  border-radius: 10px;
+  background-color: #ccc;
+}
+
+.submit {
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
